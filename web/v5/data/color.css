@@ -1,0 +1,64 @@
+/* BODY */
+body {
+	background-color: #fafaef;
+}
+
+
+/* FADE */
+table.tb_live tbody tr:nth-child(2n),
+table.tb_report tbody tr:nth-child(2n),
+.bc_fade { background-color: rgba(0, 0, 0, 0.075) }
+.fc_fade { color: rgba(0, 0, 0, 0.35) }
+.dc_fade { border-color: rgba(0, 0, 0, 0.15) }
+
+
+/* BLACK */
+.bc_black { background-color: #333 }
+.fc_black { color: #333 }
+.dc_black { border-color: #333 }
+
+
+/* GRAY */
+.bc_gray { background-color: #bbb }
+.fc_gray { color: #999 }
+.dc_gray { border-color: #bbb }
+
+
+/* WHITE */
+.bc_white { background-color: #fff }
+.fc_white { color: #fff }
+.dc_white { border-color: #fff }
+
+
+/* NORMAL */
+.bc_norm { background-color: #00a78a }
+.fc_norm { color: #00a78a }
+.dc_norm { border-color: #00a78a }
+
+
+/* WARNING */
+.bc_warn { background-color: #ffbc2e }
+.fc_warn { color: #ffbc2e }
+.dc_warn { border-color: #ffbc2e }
+
+
+/* DANGER */
+.bc_danger { background-color: #ff625b }
+.fc_danger { color: #ff625b }
+.dc_danger { border-color: #ff625b }
+
+
+/* PRIMARY */
+#nav .active:hover,
+#header,
+.bc_pri { background-color: #65b135 }
+a:hover,
+.fc_pri { color: #65b135 }
+.dc_pri { border-color: #65b135 }
+#nav li.active:after { border-left-color: #65b135 }
+
+
+/* SECONDARY */
+.bc_sec { background-color: #fb0300 }
+.fc_sec { color: #fb0300 }
+.dc_sec { border-color: #fb0300 }

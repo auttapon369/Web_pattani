@@ -1,0 +1,197 @@
+/* ------------------------------------------------------------------ global */
+.divControl,
+.dropDownItemDiv,
+.dropDownControl,
+.button {
+	font-size: 11px; 
+	font-family: Arial, sans-serif;
+	color: #000;
+	-webkit-user-select: none;
+}
+.divControl
+.dropDownOptionsDiv,
+.dropDownControl,
+.button {
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
+}
+.dropDownControl,
+.dropDownOptionsDiv,
+.button {
+	background-color: #fff;
+	border: 1px solid rgba(113, 123, 135, 0.5);
+}
+
+
+/* ------------------------------------------------------------------ button */
+.button {
+	position: relative;
+	margin-top: 5px;
+	padding: 1px 6px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}    
+.button-selected {
+	font-weight: bold;
+}
+
+
+/* -------------------------------------------------------------------- drop */
+.container {
+	width: 85px; 
+	margin-top: 5px;
+	text-align: left;
+	cursor: pointer;
+	z-index: 0;
+}
+.dropDownControl {
+	position: relative;
+	padding: 1px 6px; 
+	background-image: initial; 
+	background-attachment: initial; 
+	background-origin: initial; 
+	background-clip: initial;
+	background-position: initial initial;
+	background-repeat: initial initial;
+	border-image: initial;
+	text-align: left;
+	direction: ltr;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	z-index: 2;
+}
+.dropDownArrow {
+	position: absolute; 
+	top: 50%;
+	right: 6px; 
+	margin-top: -2px;
+	padding: 0px; 
+	width: 7px;
+	height: 4px;
+	border-width: 0px;
+	border-style: initial; 
+	border-color: initial; 
+	border-image: initial; 
+	-webkit-user-select: none; 
+}
+.dropDownOptionsDiv {
+/*
+	need this to make the box look cool, but this stops the hover 
+	and title from working on items in the box! 
+*/ 	
+	position: relative; 
+	padding-top: 2px;
+	border-top: none;
+	border-image: initial; 
+	text-align: left; 
+	z-index: 0;
+	display: none;
+}
+.dropDownItemDiv {
+	padding-top: 2px; 
+	padding-right: 5px; 
+	padding-bottom: 3px; 
+	padding-left: 5px; 
+}
+.dropDownItemDiv:hover,
+.checkboxContainer:hover {
+	background-color: rgb(235, 235, 235);				
+}
+.dropDownControl:hover,
+.button:hover {
+	background: -webkit-linear-gradient(top,rgb(255,255,255),rgb(230,230,230));
+}
+.separatorDiv {
+	margin: 1px 0px; 
+	border-top: 1px solid rgb(235, 235, 235);
+}
+
+
+/* -------------------------------------------------------------------- show */
+.divControl {
+	position: relative;
+	margin-top: 5px;
+	padding: 1px 6px;
+	min-width: 29px;
+	text-align: center;
+	font-weight: bold;
+	direction: ltr;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*
+.blankDiv {
+	position: absolute; 
+	top: -2px; 
+	left: 1px; 
+	width: 13px; 
+	height: 11px; 
+	overflow-x: hidden; 
+	overflow-y: hidden; 
+	display: none;
+	//when = block -> this is the "check" symbol
+}	
+.blankImg {
+	position: absolute; 
+	top: -44px; 
+	left: -52px; 
+	margin: 0px; 
+	padding: 0px; 
+	width: 68px; 
+	height: 67px; 
+	border-width: 0px; 
+	border-style: initial; 
+	border-color: initial; 
+	border-image: initial; 
+	-webkit-user-drag: none; 
+	-webkit-user-select: none; 
+}
+.checkboxLabel {
+	vertical-align: middle; 
+	cursor: pointer;
+}
+.checkboxContainer {
+		font-family: Arial, sans-serif; 
+		-webkit-user-select: none; 
+		font-size: 11px; 
+		padding-top: 1px; 
+		padding-bottom: 3px; 
+		padding-left: 5px; 
+		direction: ltr; 
+		text-align: left; 
+		background-color: rgb(255, 255, 255); 
+		white-space: nowrap; 
+		padding-right: 8px; 
+		color: rgb(0, 0, 0); 
+}	
+.checkboxSpan {
+		box-sizing: border-box; 
+		position: relative; 
+		line-height: 0; 
+		font-size: 0px; 
+		margin-top: 0px; 
+		margin-right: 5px; 
+		margin-bottom: 0px; 
+		margin-left: 0px; 
+		display: inline-block; 
+		background-color: rgb(255, 255, 255); 
+		border-width: 1px; 
+		border-style: solid; 
+		border-color: initial; 
+		border-image: initial; 
+		border-top-left-radius: 1px; 
+		border-top-right-radius: 1px; 
+		border-bottom-right-radius: 1px; 
+		border-bottom-left-radius: 1px; 
+		width: 13px; 
+		height: 13px; 
+		vertical-align: middle; 
+		-webkit-box-shadow: none; 
+		box-shadow: none; 
+		border-color: rgb(198, 198, 198); 		
+}
+*/

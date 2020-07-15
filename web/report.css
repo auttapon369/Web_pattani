@@ -1,0 +1,61 @@
+html, body { padding-top: 20px; background-color: #ddd; }
+body { width: 820px; margin: 0 auto; }
+ol li { margin-left:16px; }
+.head { 
+	padding: 0;
+}
+
+.box_rain,
+.box_river { 
+	position: relative; 
+	width: 100%; 
+	height: 920px; 
+	overflow: hidden;
+}
+.box_river { 
+	background: transparent url('img/pic_river.jpg') top left no-repeat ; 
+}
+.box_rain { 
+	background: transparent url('img/pic_map.jpg') top left no-repeat; 
+}
+
+.abs,
+.tb_box { 
+	position: absolute;
+}
+.t1 { top: 25px; left: 550px; } .i1 { top: 25px; left: 505px; }
+.t2 { top: 90px; left: 550px; } .i2 { top: 95px; left: 505px; }
+.t3 { top: 160px; left: 550px; } .i3 { top: 180px; left: 505px; }
+.t4 { top: 230px; left: 550px; } .i4 { top: 260px; left: 505px; }
+.t5 { top: 350px; left: 550px; } .i5 { top: 370px; left: 505px; }
+.t6 { top: 440px; left: 550px; } .i6 { top: 430px; left: 505px; }
+.t7 { top: 560px; left: 570px; } .i7 { top: 550px; left: 525px; }
+.t8 { top: 660px; left: 300px; } .i8 { top: 640px; left: 505px; }
+.t9 { top: 730px; left: 300px; } .i9 { top: 765px; left: 505px; }
+.t10 { top: 810px; left: 570px; } .i10 { top: 840px; left: 523px; }
+.t11 { top: 40px; left: 240px; } .i11 { top: 35px; left: 415px; }
+.t12 { top: 120px; left: 240px; } .i12 { top: 85px; left: 228px; }
+.t13 { top: 233px; left: 240px; } .i13 { top: 185px; left: 228px; }
+.t14 { top: 135px; left: 35px; } .i14 { top: 87px; left: 49px; }
+.t15 { top: 420px; left: 240px; } .i15 { top: 490px; left: 445px; }
+.t17 { top: 520px; left: 240px; } .i17 { top: 580px; left: 410px; }
+.t21 { top: 850px; left: 300px; } .i21 { top: 810px; left: 410px; }
+.t25 { top: 665px; left: 570px; } .i25 { top: 740px; left: 600px; }
+.TX358 { top: 170px; left: 660px }
+.TX359 { top: 380px; left: 580px }
+.TX360 { top: 470px; left: 460px }
+.TX362 { top: 670px; left: 360px }
+.TX363 { top: 0px; left: 0px }
+.TX364 { top: 0px; left: 0px }
+.TX365 { top: 0px; left: 0px }
+.TX366 { top: 0px; left: 0px }
+.TX369 { top: 0px; left: 0px }
+.TX370 { top: 0px; left: 0px }
+.TX371 { top: 0px; left: 0px }
+.TKLR1 { top: 0px; left: 0px }
+.TKLR2 { top: 0px; left: 0px }
+.TKLR3 { top: 0px; left: 0px }
+.TKLR4 { top: 0px; left: 0px }
+.TKLR5 { top: 0px; left: 0px }
+.TKLR6 { top: 0px; left: 0px }
+.TKLR7 { top: 0px; left: 0px }

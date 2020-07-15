@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="TIS-620"?><rss version="2.0"        
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"        	
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>รายงานสภาวะอากาศ - ปัตตานี : อ.หนองจิก จ.ปัตตานี</title>
+    <link>http://www.tmd.go.th</link>
+    <description>รายงานสภาวะอากาศ โดย กรมอุตุนิยมวิทยา กระทรวงเทคโนโลยีสารสนเทศ และการสื่อสาร</description>
+    <language>th-TH</language>
+    <copyright>Copyright 2006,Thai Meteorological Department</copyright>
+    <ttl>20</ttl>
+    <item>
+       <title>รายงานสภาวะอากาศ - ปัตตานี : อ.หนองจิก จ.ปัตตานี  วันที่ : 16/05/2016 เวลา 16:00 นาฬิกา </title>
+       <pubDate>Mon, 16 May 2016 16:00:00 +0700</pubDate>
+       <guid>48580</guid>
+       <link>http://www.tmd.go.th/province.php?StationNumber=48580</link>
+	   <author>กรมอุตุนิยมวิทยา</author>
+       <description><![CDATA[
+           <b>อุณหภูมิ : </b>32.9 องศาเซลเซียส <br />
+           <b>ความชื้นสัมพัทธ์ : </b> 66   %  <br />
+           <b>ความกดอากาศ : </b> 1005.37   มิลลิบาร์  <br />  
+           <b>ทิศทางลม : </b> ทิศเหนือค่อนไปทางตะวันออก               <b>ความเร็ว </b> 13.0 กม./ชม.<br />           
+                      <b>ทัศนวิสัย :  </b>  10.0  กิโลเมตร  <br />
+           <b>ลักษณะอากาศ : </b> มีเมฆมาก  <br />
+           <b>ฝนสะสมวันนี้ : </b> 4.1  มิลลิเมตร <br/>
+           <b>พระอาทิตย์ขึ้นเช้าพรุ่งนี้: </b>05:57 น. <br />
+         	<b>พระอาทิตย์ตกเย็นวันนี้: </b>18:26 น.
+      ]]></description>
+    </item>    
+  </channel>
+</rss>
